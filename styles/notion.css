@@ -59,7 +59,7 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 2em;
+  font-size: 1.4em;
   white-space: unset;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .notion-collection-card {
@@ -86,7 +86,7 @@
 }
 
 .notion-collection-card-cover {
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
@@ -97,7 +97,7 @@
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
-  filter: brightness(120%);
+  filter: brightness(105%);
 }
 
 .notion-collection-card-body {
@@ -150,11 +150,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+
   .notion-search-button {
     display: none !important;
   }
-}
+
 
 .notion .notion-page-icon-cover {
   margin-left: auto;
@@ -186,15 +186,14 @@
   min-height: 23px;
 }
 
-.notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  max-width: 1200px !important;
-  border-radius: 24px;
+  visibility: hidden;
 }
 
 .notion-page-cover-wrapper {
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+  width: 100% !important;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -203,6 +202,31 @@
   .notion-page-cover-wrapper img {
     border-radius: 0;
   }
+}
+
+.notion-page-cover-wrapper {
+  background: linear-gradient(231deg, #0011ff, #ff0000, #f200ff, #000000);
+  background-size: 200% 200%;
+
+  -webkit-animation: notion-page-cover-wrapper 59s ease infinite;
+  -moz-animation: notion-page-cover-wrapper 59s ease infinite;
+  animation: notion-page-cover-wrapper 59s ease infinite;
+}
+
+@-webkit-keyframes notion-page-cover-wrapper {
+  0%{background-position:0% 81%}
+  50%{background-position:100% 20%}
+  100%{background-position:0% 81%}
+}
+@-moz-keyframes notion-page-cover-wrapper {
+  0%{background-position:0% 81%}
+  50%{background-position:100% 20%}
+  100%{background-position:0% 81%}
+}
+@keyframes notion-page-cover-wrapper {
+  0%{background-position:0% 81%}
+  50%{background-position:100% 20%}
+  100%{background-position:0% 81%}
 }
 
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
