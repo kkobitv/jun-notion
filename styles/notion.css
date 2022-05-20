@@ -23,6 +23,7 @@
 
 .notion-text {
   padding: 0.5em 2px;
+  word-break: keep-all;
 }
 
 .notion-asset-caption {
