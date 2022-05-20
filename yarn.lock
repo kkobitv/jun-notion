@@ -2289,7 +2289,7 @@
   dependencies:
     "commander" "^8.0.0"
 
-"keyv@npm:@keyvhq/core@~1.6.6":
+"keyv@^4.0.0":
   "integrity" "sha512-fD/3rq55Hr/fqPlglrET3iuhYikJWumXIZMiK/RPw8iNoyPwkL9s4AZnNyFCgR8aGRlAd4jlyCt9JtLrQCDPJQ=="
   "resolved" "https://registry.npmjs.org/@keyvhq/core/-/core-1.6.9.tgz"
   "version" "1.6.9"
@@ -3099,7 +3099,7 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   "version" "2.1.1"
 
-"puppeteer-core@6.0.0":
+"puppeteer-core@6.0.0", "puppeteer-core@6.0.x":
   "integrity" "sha512-Mm4lVSM8CJUrHSLt2zHjlW9B2D5B3JRbkbmxzGaGTauaB9gTrM+r7gk88xfRWuaBy81pRG+nTtCBdMPzO7pjqg=="
   "resolved" "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-6.0.0.tgz"
   "version" "6.0.0"

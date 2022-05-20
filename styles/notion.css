@@ -406,3 +406,10 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+@media only screen and (max-width: 720px) {
+  .notion-h-title {
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+}
