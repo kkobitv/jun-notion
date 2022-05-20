@@ -164,6 +164,7 @@
 .notion-title {
   display: block;
   text-align: center;
+  word-break: keep-all;
 }
 
 .notion-collection-row {
@@ -409,7 +410,6 @@
 
 @media only screen and (max-width: 720px) {
   .notion-h-title {
-    font-size: 0.7em;
-    font-weight: bold;
+    font-size: 0.7em; 
   }
 }
