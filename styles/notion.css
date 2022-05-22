@@ -101,6 +101,13 @@
   filter: brightness(105%);
 }
 
+.notion-collection-card-cover img:hover {
+  transition: all 0.3s linear;
+}
+
+.notion-collection-card-cover img:hover {
+  transform: scale(1.4);
+}
 .notion-collection-card-body {
   padding: 10px;
 }
@@ -167,6 +174,7 @@
   text-align: center;
   word-break: keep-all;
 }
+
 
 .notion-collection-row {
   padding-bottom: 1em;
